@@ -1,0 +1,27 @@
+/* Outer menu container */
+#POS_ENTER_PRICE_field_overrideReason_menu,
+#POS_ENTER_PRICE_field_overrideReason_menu .dijitMenu {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+}
+
+/* Table wrapper inside the Dojo menu */
+#POS_ENTER_PRICE_field_overrideReason_menu table,
+#POS_ENTER_PRICE_field_overrideReason_menu tbody,
+#POS_ENTER_PRICE_field_overrideReason_menu tr {
+    width: 100% !important;
+    min-width: 100% !important;
+    box-sizing: border-box;
+}
+
+/* Actual dropdown option row + cell */
+#POS_ENTER_PRICE_field_overrideReason_menu .dijitMenuItem,
+#POS_ENTER_PRICE_field_overrideReason_menu .dijitMenuItem td {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    box-sizing: border-box;
+}
